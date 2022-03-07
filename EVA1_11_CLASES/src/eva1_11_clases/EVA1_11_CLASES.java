@@ -16,3 +16,32 @@ public class EVA1_11_CLASES {
     }
     
 }
+
+class Persona{ // Implementation
+    // Class Attributes
+    private String ID, name;
+    private int age;
+
+    public String getID() {
+        return ID;
+    }
+    // this = este
+    // Prompter -> Actual object
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
